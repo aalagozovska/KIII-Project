@@ -10,7 +10,7 @@ services:
       - POSTGRES_PASSWORD=admin
       - POSTGRES_DB=database-pg
     ports:
-      - '5400:5400'
+      - '5433:5433'
 
    players:
     contaianer_name: players_app
